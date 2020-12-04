@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+body{
+    background-image: url('image1.jpg');
+}
+h1{
+    color:goldenrod;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    text-align: right;
+}
+h3{
+    color:goldenrod;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+}
+section{
+    float:right;
+    width:40%;
+    margin-top:90px;
+}
+
+button{
+    color:whitesmoke;
+    background-color: rgb(9, 53, 88);
+    border-radius: 5px;
+    width:125px;
+    height:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+::placeholder{
+    color:whitesmoke;
+    font-size: 25px;
+}
+.textArea{
+    width: 85vh;
+    height: 15vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color:transparent;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 2px;
+    /* border:none; */
+    color:white;
+}
+#textOutput{
+    margin-top: 3%;
+}
+footer{
+    display: inline;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    height:auto;
+    margin-left: -5px;
+    text-align: left;
+}
+a{
+    color:black;
+}
+.link{
+    width:120px;
+    height:40px;
+}
